@@ -239,3 +239,7 @@ img{height:auto}
 .card h3 a{color:var(--ink)}
 .card h3 a:hover{color:var(--brand)}
 .disclaimer{font-size:.88rem;color:#6B7690;margin-top:22px}
+
+/* ---------- Trustpilot Review Collector ---------- */
+.tp-footer{min-height:52px;margin-top:6px;max-width:260px}
+.tp-footer a{color:#9FADC9}
