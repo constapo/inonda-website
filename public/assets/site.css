@@ -272,3 +272,8 @@ img{height:auto}
   .gallery{grid-template-columns:1fr}
   .gal-item:first-child{grid-column:auto}
 }
+
+/* ---------- hero background video ---------- */
+.hero video.bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;pointer-events:none}
+.hero video.bg-video.is-playing{opacity:1}
+@media (prefers-reduced-motion:reduce){.hero video.bg-video{display:none}}

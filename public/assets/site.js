@@ -133,4 +133,20 @@
       });
     });
   });
+
+  /* 6. hero background video: loads only after the page has finished loading,
+        never for reduced-motion or data-saver visitors */
+  window.addEventListener("load", function () {
+    var v = document.querySelector("video.bg-video");
+    if (!v) return;
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var saver = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ""));
+    if (reduce || saver) return;
+    setTimeout(function () {
+      v.src = window.innerWidth <= 820 ? v.getAttribute("data-src-sm") : v.getAttribute("data-src");
+      v.addEventListener("playing", function () { v.classList.add("is-playing"); }, { once: true });
+      var p = v.play();
+      if (p && p.catch) p.catch(function () {});
+    }, 600);
+  });
 })();
