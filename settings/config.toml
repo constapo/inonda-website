@@ -1,0 +1,368 @@
+# Inonda LTD — Wasmer Edge static web server settings
+# (Wasmer serves the "public" folder with wasmer/static-web-server using this file.)
+
+[general]
+host = "::"
+port = 8080
+root = "/public"
+log-level = "error"
+
+cache-control-headers = true
+compression = true
+compression-static = true
+
+# Error page
+page404 = "./404.html"
+
+# Security headers (HSTS, nosniff, frame options, ...). HTTPS itself is provided by Wasmer Edge.
+security-headers = true
+
+# Never show folder listings; "/en/about" -> "/en/about/"
+directory-listing = false
+redirect-trailing-slash = true
+index-files = "index.html"
+
+threads-multiplier = 1
+grace-period = 0
+log-remote-address = false
+
+[advanced]
+
+[[advanced.headers]]
+source = "**/*.{html,xml,txt}"
+headers = { Cache-Control = "public, max-age=3600", Referrer-Policy = "strict-origin-when-cross-origin" }
+
+[[advanced.headers]]
+source = "/assets/**"
+headers = { Cache-Control = "public, max-age=31536000" }
+
+# Old .html addresses -> new clean URLs (permanent redirects keep links and rankings)
+[[advanced.redirects]]
+source = "/el/index.html"
+destination = "/el/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/about.html"
+destination = "/el/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/services.html"
+destination = "/el/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/maintenance.html"
+destination = "/el/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/inspections.html"
+destination = "/el/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/owners.html"
+destination = "/el/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/areas.html"
+destination = "/el/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/faq.html"
+destination = "/el/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/contact.html"
+destination = "/el/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/privacy.html"
+destination = "/el/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/el/terms.html"
+destination = "/el/terms-of-service/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/index.html"
+destination = "/en/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/about.html"
+destination = "/en/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/services.html"
+destination = "/en/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/maintenance.html"
+destination = "/en/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/inspections.html"
+destination = "/en/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/owners.html"
+destination = "/en/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/areas.html"
+destination = "/en/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/faq.html"
+destination = "/en/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/contact.html"
+destination = "/en/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/privacy.html"
+destination = "/en/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/en/terms.html"
+destination = "/en/terms-of-service/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/index.html"
+destination = "/ru/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/about.html"
+destination = "/ru/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/services.html"
+destination = "/ru/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/maintenance.html"
+destination = "/ru/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/inspections.html"
+destination = "/ru/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/owners.html"
+destination = "/ru/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/areas.html"
+destination = "/ru/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/faq.html"
+destination = "/ru/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/contact.html"
+destination = "/ru/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/privacy.html"
+destination = "/ru/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ru/terms.html"
+destination = "/ru/terms-of-service/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/index.html"
+destination = "/uk/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/about.html"
+destination = "/uk/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/services.html"
+destination = "/uk/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/maintenance.html"
+destination = "/uk/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/inspections.html"
+destination = "/uk/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/owners.html"
+destination = "/uk/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/areas.html"
+destination = "/uk/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/faq.html"
+destination = "/uk/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/contact.html"
+destination = "/uk/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/privacy.html"
+destination = "/uk/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/uk/terms.html"
+destination = "/uk/terms-of-service/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/index.html"
+destination = "/he/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/about.html"
+destination = "/he/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/services.html"
+destination = "/he/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/maintenance.html"
+destination = "/he/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/inspections.html"
+destination = "/he/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/owners.html"
+destination = "/he/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/areas.html"
+destination = "/he/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/faq.html"
+destination = "/he/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/contact.html"
+destination = "/he/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/privacy.html"
+destination = "/he/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/he/terms.html"
+destination = "/he/terms-of-service/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/index.html"
+destination = "/ro/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/about.html"
+destination = "/ro/about/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/services.html"
+destination = "/ro/property-management-services/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/maintenance.html"
+destination = "/ro/property-maintenance-repairs/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/inspections.html"
+destination = "/ro/property-inspections/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/owners.html"
+destination = "/ro/property-owners/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/areas.html"
+destination = "/ro/service-areas/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/faq.html"
+destination = "/ro/faq/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/contact.html"
+destination = "/ro/contact/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/privacy.html"
+destination = "/ro/privacy-policy/"
+kind = 301
+
+[[advanced.redirects]]
+source = "/ro/terms.html"
+destination = "/ro/terms-of-service/"
+kind = 301

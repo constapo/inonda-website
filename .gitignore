@@ -1,0 +1,10 @@
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+# local backups and archives
+*.zip
+*.tar.gz
+*.bak

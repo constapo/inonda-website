@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<title>Property Management Cyprus | Διαχείριση Ακινήτων | Inonda</title>
+<meta name="description" content="Inonda LTD — property management in Nicosia and across Cyprus. Διαχείριση ακινήτων στη Λευκωσία και σε όλη την Κύπρο: συντήρηση, επισκευές, επιθεωρήσεις.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://inonda.site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Inonda LTD">
+<meta property="og:title" content="Inonda LTD | Property Management Cyprus · Διαχείριση Ακινήτων Κύπρος">
+<meta property="og:description" content="Property management in Nicosia and across Cyprus — maintenance, repairs and property inspections for landlords and investors.">
+<meta property="og:url" content="https://inonda.site/">
+<meta property="og:image" content="https://inonda.site/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1A3C">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script>
+/* Send visitors to their language: saved choice first, then device language, else English. */
+(function(){
+  var L=["el","en","ru","uk","he","ro"],s=null;
+  try{s=localStorage.getItem("inonda_lang");}catch(e){}
+  function dev(){
+    var l=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||"en"]);
+    for(var i=0;i<l.length;i++){var c=String(l[i]).toLowerCase().split("-")[0];
+      if(c==="ua")c="uk"; if(c==="gr")c="el"; if(c==="iw")c="he";
+      if(L.indexOf(c)>-1)return c;}
+    return "en";
+  }
+  location.replace((s&&L.indexOf(s)>-1?s:dev())+"/"+(location.protocol==="file:"?"index.html":""));
+})();
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://inonda.site/#website","url":"https://inonda.site/","name":"Inonda LTD","inLanguage":["el","en","ru","uk","he","ro"],"publisher":{"@id":"https://inonda.site/#business"}},{"@type":"LocalBusiness","@id":"https://inonda.site/#business","name":"Inonda LTD","url":"https://inonda.site/","logo":"https://inonda.site/assets/logo.png","image":"https://inonda.site/assets/og-image.jpg","telephone":"+35794091613","email":"inonda2026@outlook.com","address":{"@type":"PostalAddress","addressLocality":"Nicosia","addressCountry":"CY"},"areaServed":{"@type":"Country","name":"Cyprus"}}]}</script>
+<style>
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0E1A3C;color:#fff;text-align:center;padding:24px 16px}
+main{max-width:520px;width:100%}
+img{margin:0 auto 12px;display:block}
+h1{font-weight:800;font-size:clamp(24px,6vw,34px);margin:0 0 6px;line-height:1.2}
+p{color:#C9D2E4;margin:0 0 22px;line-height:1.5}
+ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+a{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 18px;border:1px solid rgba(255,255,255,.22);border-radius:14px;color:#fff;text-decoration:none;min-height:48px}
+a:hover,a:focus{background:rgba(255,255,255,.08);border-color:#8FDCE6}
+b{font-family:ui-monospace,monospace;color:#8FDCE6;font-weight:500;letter-spacing:.1em}
+small{margin-inline-start:auto;color:#9FADC9}
+</style>
+</head>
+<body>
+<main>
+  <img src="assets/logo-68.png" alt="Inonda LTD logo" width="68" height="53">
+  <h1>Inonda LTD — Property Management in Cyprus</h1>
+  <p>Διαχείριση ακινήτων στη Λευκωσία και σε όλη την Κύπρο · Nicosia, Cyprus</p>
+  <ul><li><a href="el/" hreflang="el" lang="el" data-golang="el"><b>ΕΛ</b> Ελληνικά<small>Διαχείριση ακινήτων</small></a></li><li><a href="en/" hreflang="en" lang="en" data-golang="en"><b>EN</b> English<small>Property management</small></a></li><li><a href="ru/" hreflang="ru" lang="ru" data-golang="ru"><b>RU</b> Русский<small>Управление недвижимостью</small></a></li><li><a href="uk/" hreflang="uk" lang="uk" data-golang="uk"><b>UA</b> Українська<small>Управління нерухомістю</small></a></li><li><a href="he/" hreflang="he" lang="he" data-golang="he"><b>HE</b> עברית<small>ניהול נכסים</small></a></li><li><a href="ro/" hreflang="ro" lang="ro" data-golang="ro"><b>RO</b> Română<small>Administrare imobiliară</small></a></li></ul>
+  <script>document.querySelectorAll("[data-golang]").forEach(function(a){if(location.protocol==="file:")a.setAttribute("href",a.getAttribute("data-golang")+"/index.html");a.addEventListener("click",function(){try{localStorage.setItem("inonda_lang",a.getAttribute("data-golang"));}catch(e){}});});</script>
+</main>
+</body>
+</html>

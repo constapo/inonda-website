@@ -1,0 +1,15 @@
+# robots.txt for https://inonda.site
+User-agent: *
+Allow: /
+
+# Google Ads / AdSense landing-page crawlers (they ignore the * group, so name them explicitly)
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://inonda.site/sitemap.xml
