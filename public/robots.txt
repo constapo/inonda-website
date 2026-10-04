@@ -1,4 +1,4 @@
-# robots.txt for https://inonda.site
+# robots.txt for https://www.inonda.site
 User-agent: *
 Allow: /
 
@@ -12,4 +12,4 @@ Allow: /
 User-agent: Mediapartners-Google
 Allow: /
 
-Sitemap: https://inonda.site/sitemap.xml
+Sitemap: https://www.inonda.site/sitemap.xml

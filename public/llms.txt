@@ -15,56 +15,56 @@ Key facts:
 
 ## Services (English)
 
-- [Property management services](https://inonda.site/en/property-management-services/): overview of how Inonda LTD manages a rental property in Cyprus
-- [Maintenance and repairs](https://inonda.site/en/property-maintenance-repairs/): 24/7 issue reporting, vetted contractors, preventive maintenance, cost approval and a digital maintenance log
-- [Property inspections](https://inonda.site/en/property-inspections/): move-in, routine and move-out inspections with dated photos and written reports
-- [For property owners](https://inonda.site/en/property-owners/): the three-step management process and the free assessment request form
-- [Service areas](https://inonda.site/en/service-areas/): towns and regions covered in Cyprus
+- [Property management services](https://www.inonda.site/en/property-management-services/): overview of how Inonda LTD manages a rental property in Cyprus
+- [Maintenance and repairs](https://www.inonda.site/en/property-maintenance-repairs/): 24/7 issue reporting, vetted contractors, preventive maintenance, cost approval and a digital maintenance log
+- [Property inspections](https://www.inonda.site/en/property-inspections/): move-in, routine and move-out inspections with dated photos and written reports
+- [For property owners](https://www.inonda.site/en/property-owners/): the three-step management process and the free assessment request form
+- [Service areas](https://www.inonda.site/en/service-areas/): towns and regions covered in Cyprus
 
 ## Υπηρεσίες (Ελληνικά)
 
-- [Διαχείριση ακινήτων](https://inonda.site/el/): αρχική σελίδα στα ελληνικά
-- [Υπηρεσίες διαχείρισης ακινήτων](https://inonda.site/el/property-management-services/)
-- [Συντήρηση και επισκευές](https://inonda.site/el/property-maintenance-repairs/)
-- [Επιθεωρήσεις ακινήτου](https://inonda.site/el/property-inspections/)
-- [Για ιδιοκτήτες](https://inonda.site/el/property-owners/)
+- [Διαχείριση ακινήτων](https://www.inonda.site/el/): αρχική σελίδα στα ελληνικά
+- [Υπηρεσίες διαχείρισης ακινήτων](https://www.inonda.site/el/property-management-services/)
+- [Συντήρηση και επισκευές](https://www.inonda.site/el/property-maintenance-repairs/)
+- [Επιθεωρήσεις ακινήτου](https://www.inonda.site/el/property-inspections/)
+- [Για ιδιοκτήτες](https://www.inonda.site/el/property-owners/)
 
 ## Guides for landlords (English)
 
-- [Renting out property in Cyprus: a landlord's guide](https://inonda.site/en/guides/landlord-guide-cyprus/): From preparing the property to returning the deposit: every step of renting out a home in Cyprus.
-- [Property management fees in Cyprus: what you pay for](https://inonda.site/en/guides/property-management-fees-cyprus/): Pricing models, what is included, hidden extras, and the questions to ask before you sign.
-- [Move-in and move-out inspection checklist for Cyprus rentals](https://inonda.site/en/guides/property-inspection-checklist/): A room-by-room checklist to document condition and avoid deposit disputes.
-- [Managing a Cyprus property from abroad](https://inonda.site/en/guides/manage-cyprus-property-from-abroad/): Bills, taxes, vacant-home care and local support for owners living outside Cyprus.
+- [Renting out property in Cyprus: a landlord's guide](https://www.inonda.site/en/guides/landlord-guide-cyprus/): From preparing the property to returning the deposit: every step of renting out a home in Cyprus.
+- [Property management fees in Cyprus: what you pay for](https://www.inonda.site/en/guides/property-management-fees-cyprus/): Pricing models, what is included, hidden extras, and the questions to ask before you sign.
+- [Move-in and move-out inspection checklist for Cyprus rentals](https://www.inonda.site/en/guides/property-inspection-checklist/): A room-by-room checklist to document condition and avoid deposit disputes.
+- [Managing a Cyprus property from abroad](https://www.inonda.site/en/guides/manage-cyprus-property-from-abroad/): Bills, taxes, vacant-home care and local support for owners living outside Cyprus.
 
 ## Property management by area
 
-- [Property management in Nicosia](https://inonda.site/en/property-management-nicosia/)
-- [Property management in Limassol](https://inonda.site/en/property-management-limassol/)
-- [Property management in Larnaca](https://inonda.site/en/property-management-larnaca/)
-- [Property management in Protaras and Agia Napa](https://inonda.site/en/property-management-protaras-agia-napa/)
+- [Property management in Nicosia](https://www.inonda.site/en/property-management-nicosia/)
+- [Property management in Limassol](https://www.inonda.site/en/property-management-limassol/)
+- [Property management in Larnaca](https://www.inonda.site/en/property-management-larnaca/)
+- [Property management in Protaras and Agia Napa](https://www.inonda.site/en/property-management-protaras-agia-napa/)
 
 ## Οδηγοί και περιοχές (Ελληνικά)
 
-- [Ενοικίαση ακινήτου στην Κύπρο: οδηγός για ιδιοκτήτες](https://inonda.site/el/guides/landlord-guide-cyprus/)
-- [Κόστος διαχείρισης ακινήτων στην Κύπρο: τι πληρώνετε](https://inonda.site/el/guides/property-management-fees-cyprus/)
-- [Λίστα επιθεώρησης ακινήτου κατά την είσοδο και έξοδο ενοικιαστή](https://inonda.site/el/guides/property-inspection-checklist/)
-- [Διαχείριση ακινήτου στην Κύπρο από το εξωτερικό](https://inonda.site/el/guides/manage-cyprus-property-from-abroad/)
-- [Διαχείριση ακινήτων στη Λευκωσία](https://inonda.site/el/property-management-nicosia/)
-- [Διαχείριση ακινήτων στη Λεμεσό](https://inonda.site/el/property-management-limassol/)
-- [Διαχείριση ακινήτων στη Λάρνακα](https://inonda.site/el/property-management-larnaca/)
-- [Διαχείριση ακινήτων σε Πρωταρά και Αγία Νάπα](https://inonda.site/el/property-management-protaras-agia-napa/)
+- [Ενοικίαση ακινήτου στην Κύπρο: οδηγός για ιδιοκτήτες](https://www.inonda.site/el/guides/landlord-guide-cyprus/)
+- [Κόστος διαχείρισης ακινήτων στην Κύπρο: τι πληρώνετε](https://www.inonda.site/el/guides/property-management-fees-cyprus/)
+- [Λίστα επιθεώρησης ακινήτου κατά την είσοδο και έξοδο ενοικιαστή](https://www.inonda.site/el/guides/property-inspection-checklist/)
+- [Διαχείριση ακινήτου στην Κύπρο από το εξωτερικό](https://www.inonda.site/el/guides/manage-cyprus-property-from-abroad/)
+- [Διαχείριση ακινήτων στη Λευκωσία](https://www.inonda.site/el/property-management-nicosia/)
+- [Διαχείριση ακινήτων στη Λεμεσό](https://www.inonda.site/el/property-management-limassol/)
+- [Διαχείριση ακινήτων στη Λάρνακα](https://www.inonda.site/el/property-management-larnaca/)
+- [Διαχείριση ακινήτων σε Πρωταρά και Αγία Νάπα](https://www.inonda.site/el/property-management-protaras-agia-napa/)
 
-- Guides in other languages: [Руководства для владельцев недвижимости на Кипре](https://inonda.site/ru/guides/), [Посібники для власників нерухомості на Кіпрі](https://inonda.site/uk/guides/), [מדריכים לבעלי נכסים בקפריסין](https://inonda.site/he/guides/), [Ghiduri pentru proprietarii de imobile din Cipru](https://inonda.site/ro/guides/)
+- Guides in other languages: [Руководства для владельцев недвижимости на Кипре](https://www.inonda.site/ru/guides/), [Посібники для власників нерухомості на Кіпрі](https://www.inonda.site/uk/guides/), [מדריכים לבעלי נכסים בקפריסין](https://www.inonda.site/he/guides/), [Ghiduri pentru proprietarii de imobile din Cipru](https://www.inonda.site/ro/guides/)
 
 ## Company
 
-- [About Inonda LTD](https://inonda.site/en/about/)
-- [Frequently asked questions](https://inonda.site/en/faq/)
-- [Contact](https://inonda.site/en/contact/)
+- [About Inonda LTD](https://www.inonda.site/en/about/)
+- [Frequently asked questions](https://www.inonda.site/en/faq/)
+- [Contact](https://www.inonda.site/en/contact/)
 
 ## Optional
 
-- [Privacy policy](https://inonda.site/en/privacy-policy/)
-- [Terms of service](https://inonda.site/en/terms-of-service/)
-- [Sitemap (all languages)](https://inonda.site/sitemap.xml)
-- Other languages: [Русский](https://inonda.site/ru/), [Українська](https://inonda.site/uk/), [עברית](https://inonda.site/he/), [Română](https://inonda.site/ro/)
+- [Privacy policy](https://www.inonda.site/en/privacy-policy/)
+- [Terms of service](https://www.inonda.site/en/terms-of-service/)
+- [Sitemap (all languages)](https://www.inonda.site/sitemap.xml)
+- Other languages: [Русский](https://www.inonda.site/ru/), [Українська](https://www.inonda.site/uk/), [עברית](https://www.inonda.site/he/), [Română](https://www.inonda.site/ro/)

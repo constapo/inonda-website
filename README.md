@@ -4,7 +4,7 @@ Website of Inonda LTD, property management in Nicosia and Cyprus. Hosted on Wasm
 
 ## How updates go live
 
-The `main` branch connects to the Wasmer app that serves https://inonda.site.
+The `main` branch connects to the Wasmer app that serves https://www.inonda.site.
 Each change saved to `main` deploys on its own within a minute or two.
 You never need to touch GoDaddy DNS for updates.
 
@@ -22,7 +22,7 @@ You never need to touch GoDaddy DNS for updates.
 
 1. Open the file on github.com, for example `public/en/contact/index.html`.
 2. Click the pencil icon, edit the text, then click **Commit changes**.
-3. Wait a minute and refresh https://inonda.site.
+3. Wait a minute and refresh https://www.inonda.site.
 
 Change the same text in every language folder you use. If you add or rename a page, add it to `public/sitemap.xml` too.
 
