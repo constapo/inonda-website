@@ -85,6 +85,13 @@
       var status = form.querySelector(".form-status");
       var submit = form.querySelector("button[type=submit]");
       var labelIdle = submit ? submit.textContent : "";
+      var shownAt = Date.now();
+      /* hidden trap field: people never see it, simple bots fill it in */
+      var trap = document.createElement("input");
+      trap.type = "text"; trap.name = "Website"; trap.tabIndex = -1; trap.autocomplete = "off";
+      trap.setAttribute("aria-hidden", "true");
+      trap.style.cssText = "position:absolute;left:-9999px;width:1px;height:1px;opacity:0";
+      form.appendChild(trap);
       form.addEventListener("submit", function (ev) {
         ev.preventDefault();
         if (!form.checkValidity()) { form.reportValidity(); return; }
@@ -98,7 +105,7 @@
           /* No mail relay configured: hand the completed enquiry to WhatsApp,
              with the e-mail link under the form as the fallback. */
           var lines = [];
-          data.forEach(function (v, k) { if (v && k !== "Consent") lines.push(k + ": " + v); });
+          data.forEach(function (v, k) { if (v && k !== "Consent" && k !== "Website") lines.push(k + ": " + v); });
           var text = encodeURIComponent((form.getAttribute("data-subject") || "Inonda LTD") + "\n" + lines.join("\n"));
           var wa = "https://wa.me/" + form.getAttribute("data-whatsapp") + "?text=" + text;
           window.open(wa, "_blank", "noopener");
@@ -107,11 +114,12 @@
           return;
         }
         payload._subject = form.getAttribute("data-subject") || "Website enquiry — Inonda LTD";
-        payload._template = "table";
         payload.Page = location.href;
+        payload._t = Math.round((Date.now() - shownAt) / 1000);
+        /* text/plain keeps this a "simple" request, so the browser sends it without a CORS preflight */
         fetch(endpoint, {
           method: "POST",
-          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
           body: JSON.stringify(payload)
         }).then(function (r) { return r.json().catch(function () { return { success: r.ok }; }); })
           .then(function (res) {
