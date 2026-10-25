@@ -28,9 +28,14 @@ log-remote-address = false
 
 [advanced]
 
+# Revalidate clean page URLs so content updates appear on refresh.
+[[advanced.headers]]
+source = "**"
+headers = { Cache-Control = "public, max-age=0, must-revalidate", Referrer-Policy = "strict-origin-when-cross-origin" }
+
 [[advanced.headers]]
 source = "**/*.{html,xml,txt}"
-headers = { Cache-Control = "public, max-age=3600", Referrer-Policy = "strict-origin-when-cross-origin" }
+headers = { Cache-Control = "public, max-age=0, must-revalidate", Referrer-Policy = "strict-origin-when-cross-origin" }
 
 [[advanced.headers]]
 source = "/assets/**"
@@ -366,3 +371,4 @@ kind = 301
 source = "/ro/terms.html"
 destination = "/ro/terms-of-service/"
 kind = 301
+
