@@ -174,7 +174,7 @@ footer p{color:#9FADC9}
   .footer-grid{grid-template-columns:1fr 1fr}
   section{padding:70px 0}
 }
-@media (max-width:1180px){
+@media (max-width:1440px){
   :root{--nav-h:76px}
   .links{display:none}
   .menu-toggle{display:flex;align-items:center;justify-content:center}
@@ -302,3 +302,8 @@ footer,footer p,footer a{color:#bdccda}
 @media(hover:hover) and (pointer:fine){.card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}}
 @media(max-width:600px){.card{padding:24px 20px}.hero-facts{gap:16px}.hero-facts span{min-width:0}.btn{min-height:48px}.chips a{max-width:100%;overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.card:hover,.btn:hover{transform:none}}
+
+
+/* Keep translated navigation and the quote action inside the header. */
+.nav-right{margin-inline-start:auto}
+@media(min-width:900px) and (max-width:1440px){.nav-right .btn{display:inline-flex}}
