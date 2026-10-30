@@ -174,7 +174,7 @@ footer p{color:#9FADC9}
   .footer-grid{grid-template-columns:1fr 1fr}
   section{padding:70px 0}
 }
-@media (max-width:1180px){
+@media (max-width:1440px){
   :root{--nav-h:76px}
   .links{display:none}
   .menu-toggle{display:flex;align-items:center;justify-content:center}
@@ -277,3 +277,33 @@ img{height:auto}
 .hero video.bg-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.2s ease;pointer-events:none}
 .hero video.bg-video.is-playing{opacity:1}
 @media (prefers-reduced-motion:reduce){.hero video.bg-video{display:none}}
+
+
+/* INONDA FUTURE — presentation only; original content and assets preserved. */
+:root{--navy:#071d35;--brand:#0077b6;--teal:#0077b6;--teal-soft:#e7f6fc;--accent:#0077b6;--accent-dark:#023e8a;--sand:#f1f7fb;--ink:#0b2740;--body:#39546a;--line:#d5e6ef;--r-lg:26px}
+body{background:linear-gradient(180deg,#f7fbfe 0%,#fff 36%);color:var(--body)}
+.nav{border-color:#d5e6ef;box-shadow:0 12px 36px rgba(7,29,53,.12)}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 6px 18px rgba(0,119,182,.18)}
+.btn-primary:hover{background:var(--accent-dark);box-shadow:0 10px 26px rgba(2,62,138,.25)}
+.cta-band{background:linear-gradient(120deg,#071d35,#023e8a)}
+.card,.form-box,.aside-card{border-radius:var(--r-lg);box-shadow:0 12px 36px rgba(2,62,138,.06)}
+.card{border-top:3px solid #b5ddeb}
+.card:hover{border-color:#80bdd8;box-shadow:0 18px 44px rgba(2,62,138,.12)}
+.card .num{color:#023e8a}
+.callout{background:#e7f6fc;border-inline-start-color:#0077b6}
+details{box-shadow:0 5px 20px rgba(7,29,53,.03)}
+details[open]{border-color:#80bdd8;box-shadow:0 10px 28px rgba(2,62,138,.08)}
+.hero .eyebrow,.dark .eyebrow{color:#8fdce6}
+.crumbs,.crumbs a{color:#b8cadd}
+footer,footer p,footer a{color:#bdccda}
+.legal-bar{color:#a9bed0}
+:is(a,button,input,select,textarea,summary):focus-visible{outline:3px solid #0077b6;outline-offset:4px;box-shadow:0 0 0 2px #fff}
+.mobile-panel{max-height:calc(100dvh - var(--nav-h) - 24px);overflow-y:auto}
+@media(hover:hover) and (pointer:fine){.card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}}
+@media(max-width:600px){.card{padding:24px 20px}.hero-facts{gap:16px}.hero-facts span{min-width:0}.btn{min-height:48px}.chips a{max-width:100%;overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.card:hover,.btn:hover{transform:none}}
+
+
+/* Keep translated navigation and the quote action inside the header. */
+.nav-right{margin-inline-start:auto}
+@media(min-width:900px) and (max-width:1440px){.nav-right .btn{display:inline-flex}}
