@@ -20,7 +20,7 @@ function update(){
   ['site','org','homes'].forEach(function(key,i){var card=section.querySelectorAll('.inonda-network-card')[i];card.querySelector('h3').textContent=c[key+'Title'];card.querySelector('p').textContent=c[key+'Text'];card.querySelector('a').textContent=c[key+'Action']+' ↗';var badge=card.querySelector('.inonda-network-current');if(badge)badge.textContent=c.current;});
  }
  // Existing menu/footer links must follow the chosen language too; leave media URLs untouched.
- document.querySelectorAll('a[href]').forEach(function(a){if(!/^https:\/\/www\.inonda\.(site|org)\/(el|en|ru|uk|he|ro)\//.test(a.href))return;var u=new URL(a.href);u.pathname=u.pathname.replace(/^\/(el|en|ru|uk|he|ro)\//,'/'+lang+'/');a.href=u.href;});
+ if(site==='homes')document.querySelectorAll('a[href]').forEach(function(a){if(a.hasAttribute('data-golang')||a.hasAttribute('hreflang')||!/^https:\/\/www\.inonda\.(site|org)\/(el|en|ru|uk|he|ro)\//.test(a.href))return;var u=new URL(a.href);u.pathname=u.pathname.replace(/^\/(el|en|ru|uk|he|ro)\//,'/'+lang+'/');a.href=u.href;});
 }
 document.addEventListener('inonda:language',update);
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',update);else update();

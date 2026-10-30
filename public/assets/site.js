@@ -65,6 +65,13 @@
           panel.classList.remove("open"); tog.setAttribute("aria-expanded", "false");
         }
       });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && panel.classList.contains("open")) {
+          panel.classList.remove("open");
+          tog.setAttribute("aria-expanded", "false");
+          tog.focus();
+        }
+      });
     }
 
     /* 4. cookie notice */
