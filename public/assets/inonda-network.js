@@ -5,6 +5,18 @@ function esc(v){return String(v).replace(/[&<>"']/g,function(c){return {'&':'&am
 function update(){
  var lang=document.documentElement.lang, c=copy[lang]||copy.en, site=document.body.getAttribute('data-inonda-site');
  var bar=document.querySelector('.inonda-network-bar'); if(!bar)return;
+ var languageBar=document.querySelector('.inonda-language-bar');
+ if(languageBar){
+  var labels={el:'Γλώσσα',en:'Language',ru:'Язык',uk:'Мова',he:'שפה',ro:'Limbă'};
+  languageBar.setAttribute('aria-label',labels[lang]||labels.en);
+  languageBar.querySelector('span').textContent=labels[lang]||labels.en;
+  languageBar.querySelectorAll('[data-golang]').forEach(function(a){
+   var code=a.getAttribute('data-golang');
+   if(code===lang)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');
+   if(site==='homes'){var target=new URL(location.href);target.searchParams.set('lang',code);a.href=target.href;}
+  });
+ }
+
  document.querySelectorAll('.inonda-social-footer').forEach(function(nav){nav.setAttribute('aria-label',c.follow);nav.querySelector('strong').textContent=c.follow;});
  bar.setAttribute('aria-label',c.nav);
  var roles={site:c.management,org:c.services,homes:c.estimator};
