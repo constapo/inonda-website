@@ -1560,4 +1560,82 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+<url>
+    <loc>https://www.inonda.site/el/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+<url>
+    <loc>https://www.inonda.site/en/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+<url>
+    <loc>https://www.inonda.site/ru/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+<url>
+    <loc>https://www.inonda.site/uk/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+<url>
+    <loc>https://www.inonda.site/he/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+<url>
+    <loc>https://www.inonda.site/ro/accessibility/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.inonda.site/el/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.inonda.site/en/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.inonda.site/ru/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://www.inonda.site/uk/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://www.inonda.site/he/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.inonda.site/ro/accessibility/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.inonda.site/en/accessibility/"/>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

@@ -307,3 +307,11 @@ footer,footer p,footer a{color:#bdccda}
 /* Keep translated navigation and the quote action inside the header. */
 .nav-right{margin-inline-start:auto}
 @media(min-width:900px) and (max-width:1440px){.nav-right .btn{display:inline-flex}}
+/* a11y: eyebrow contrast on light-blue sections (WCAG 1.4.3) */
+.alt .eyebrow{color:#006aa3}
+/* a11y: text version of the presentation video (WCAG 1.2.3 / 1.2.5) */
+.video-text{margin-top:14px;font-size:.95rem;line-height:1.6}.video-text summary{cursor:pointer;font-weight:600;text-decoration:underline}.video-text ol{margin:10px 0 0;padding-inline-start:1.4em}.video-text li{margin:0 0 6px}
+/* a11y: links in text are underlined (WCAG 1.4.1) */
+.prose a:not(.btn){text-decoration:underline}
+/* a11y: links on tinted panels (WCAG 1.4.3): #006aa3 is >=5:1 on #eaf2f8, #e7f6fc and #fff4df */
+.alt p a:not(.btn),.alt li a:not(.btn),.callout a:not(.btn),p[style*="#FFF4DF"] a:not(.btn){color:#006aa3}.alt .disclaimer{color:#57627b}
