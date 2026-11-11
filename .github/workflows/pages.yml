@@ -19,6 +19,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: touch public/.nojekyll
+      - name: Old .html addresses redirect to new clean URLs
+        run: |
+          python3 - <<'PY'
+          import os, re
+          t = open('settings/config.toml', encoding='utf-8').read()
+          for s, d in re.findall(r'source = "([^"]+)"\s*\ndestination = "([^"]+)"', t):
+              p = 'public' + s
+              if os.path.exists(p):
+                  continue
+              os.makedirs(os.path.dirname(p), exist_ok=True)
+              u = 'https://www.inonda.site' + d
+              with open(p, 'w', encoding='utf-8') as f:
+                  f.write(f'<!doctype html><html><head><meta charset="utf-8"><title>Inonda LTD</title><link rel="canonical" href="{u}"><meta http-equiv="refresh" content="0; url={d}"><script>location.replace("{d}")</script></head><body><a href="{d}">{u}</a></body></html>')
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
