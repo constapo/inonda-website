@@ -24,3 +24,4 @@
 - Latest owner correction (25 October 2026): Facebook https://www.facebook.com/inondalimited and Instagram https://www.instagram.com/inondaltd replace all earlier profile URLs, including schema and listing drafts. Preserve the social brand icons.
 
 - Mandatory owner rule (30 October 2026): all three INONDA websites must display social media brand symbols in their original brand colours, never monochrome or recoloured to the INONDA palette. Preserve Facebook blue, Instagram gradient, TikTok black/cyan/red, YouTube red, WhatsApp green and Viber purple, including hover/focus states.
+- Photo rule (owner, 12 November 2026): a service photo must show exactly the service named beside it. If no company photo matches, leave the drawn icon (image key None/null) rather than reuse a near match.
