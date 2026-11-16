@@ -1,10 +1,10 @@
 # inonda.site
 
-Website of Inonda LTD, property management in Nicosia and Cyprus. Hosted on Wasmer Edge; domain at GoDaddy.
+Website of Inonda LTD, property management in Nicosia and Cyprus. Available at https://www.inonda.site; the domain and hosting configuration must be verified independently.
 
 ## How updates go live
 
-The `main` branch connects to the Wasmer app that serves https://www.inonda.site.
+The published site is served at https://www.inonda.site. Verify the active deployment target before making hosting changes.
 Each change saved to `main` deploys on its own within a minute or two.
 You never need to touch GoDaddy DNS for updates.
 
@@ -16,7 +16,7 @@ You never need to touch GoDaddy DNS for updates.
 | `public/assets/` | Stylesheet, script, logo and images |
 | `public/sitemap.xml`, `robots.txt`, `llms.txt` | Search engine and AI crawler files |
 | `settings/config.toml` | Web server settings (404 page, headers, old-URL redirects) |
-| `Staticfile` | Tells Wasmer to serve `public/` as a static site |
+| `Staticfile` | Legacy static server entrypoint for serving `public/`; retain until the active runtime is verified |
 
 ## Quick edits from a browser
 
@@ -61,4 +61,4 @@ Shared asset changes require incrementing VERSION in tools/inonda_network.py bef
 
 ### Current static hosting cache behaviour
 
-Wasmer’s Staticfile runtime currently ignores the legacy settings/config.toml overrides and sends Cache-Control: max-age=86400 for HTML. Refresh the page after a deployment; use a hard refresh if a browser retains an earlier page. Changing that TOML file alone does not change the live headers. The original management-site CSS/JS and shared assets now use versioned URLs to avoid stale layouts. The estimator uses its own no-store Python host.
+Previous live checks found that the static runtime ignored the legacy settings/config.toml overrides and returned Cache-Control: max-age=86400 for HTML. Verify current headers independently. Refresh the page after a deployment; use a hard refresh if a browser retains an earlier page. Changing that TOML file alone does not change the live headers. The original management-site CSS/JS and shared assets now use versioned URLs to avoid stale layouts. The estimator uses its own no-store Python host.
