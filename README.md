@@ -5,7 +5,7 @@ Website of Inonda LTD, property management in Nicosia and Cyprus. Available at h
 ## How updates go live
 
 The published site is served at https://www.inonda.site. Verify the active deployment target before making hosting changes.
-Do not assume a change is live until the published website has been checked.
+Each change saved to `main` deploys on its own within a minute or two.
 You never need to touch GoDaddy DNS for updates.
 
 ## Folder layout
